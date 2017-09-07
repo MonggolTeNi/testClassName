@@ -15,6 +15,9 @@ public class TestClassName {
             ttest tt = (ttest) UserClass.newInstance();
             tt.tt();
 
+            //这个是我测试的
+            System.out.println("test测试测试测试");
+
 //            ttest t = new ttest();
 //            t.tt();
 
