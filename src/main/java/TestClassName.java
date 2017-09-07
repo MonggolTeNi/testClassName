@@ -1,4 +1,5 @@
 import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 /**
  * Created by tenigeer on 2017/9/4.
@@ -17,7 +18,9 @@ public class TestClassName {
 
             //这个是我测试的
             System.out.println("test测试测试测试");
-
+            for (int i = 0; i <  10; i++){
+                System.out.println(i);
+            }
 //            ttest t = new ttest();
 //            t.tt();
 
